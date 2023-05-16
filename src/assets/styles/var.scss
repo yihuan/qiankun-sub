@@ -1,0 +1,56 @@
+$font-size-mini: 12px;
+$font-size-small: 12px;
+$font-size: 14px;
+$font-size-middle: 16px;
+$font-size-large: 20px;
+
+$base-gap: 4px;
+$base-radius: 4px;
+
+$primary-color: #1564ff;
+$primary-text-color: #333333;
+$secondary-text-color: #a8acb3;
+$icon-color: #a8acb3;
+$font-color: #1b1c1e;
+$secondary-font-color: #757980;
+$border-color: #e4e7ed;
+$line-color: #e4e7ed;
+$color-white: #fff;
+$required-color: #dd2100;
+$sub-color: #8592a6;
+$font_sumary-color: #202d41;
+$font-hint-color: #ced4e0;
+$tips-color: $secondary-text-color;
+$expired-color: #dd2100;
+$danger-color: #dd2100;
+$hover-bg-color: #f6f7fa;
+
+$background-color-base: $color-white;
+
+$radio-bg-color: #e4e7ed;
+$radio-color: $secondary-text-color;
+$radio-color--active: $font-color;
+$radio-bg-color--active: $color-white;
+
+$search-placeholder-color: $secondary-text-color;
+$search-bg: #eeeff0;
+
+$priority-urgency-color: #dd2100;
+$priority-high-color: #ff8a33;
+$priority-middle-color: #ffcc66;
+$priority-low-color: #fff2b3;
+
+$duration: 0.2s;
+
+$drawer-shadow: -4px 0px 10px 0px rgba(0, 0, 0, 0.2);
+
+:export {
+  priorityUrgencyColor: $priority-urgency-color;
+  priorityHighColor: $priority-high-color;
+  priorityMiddleColor: $priority-middle-color;
+  priorityLowColor: $priority-low-color;
+  primaryColor: $primary-color;
+  baseGap: $base-gap;
+  borderColor: $border-color;
+  fontColor: $font-color;
+}

@@ -1,0 +1,15 @@
+.el-icon-arrow-up,
+.el-icon-arrow-down {
+  font-family: 'iconfont' !important;
+  font-size: 12px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.el-icon-arrow-up::before {
+  content: '\e64a2' !important;
+}
+
+.el-icon-arrow-down:before {
+  content: '\e64a2' !important;
+}

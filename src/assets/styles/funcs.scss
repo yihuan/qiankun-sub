@@ -1,0 +1,8 @@
+/**
+* @function 指令集
+*/
+
+// n * base-gap
+@function base-gap($n) {
+  @return $n * $base-gap;
+}
